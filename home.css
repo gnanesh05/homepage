@@ -24,6 +24,7 @@ a {
 
 a:hover {
 	opacity: 1;
+	cursor: pointer;
 }
 
 header {
@@ -120,7 +121,7 @@ section:not(.caption):nth-child(even) {
 	.caption .background,
 	.caption .caption-content{
 		flex-direction: column;
-		flex-basis: 100%;
+		width: 100%;
 		flex-wrap: wrap;
 	}
 }
